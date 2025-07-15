@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSoccer - Tu Manager de Fútbol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">WebSoccer</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Resultados</a></li>
+                    <li><a href="#">Tabla</a></li>
+                    <li><a href="#">Equipo</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="live-ticker">
+            <h2>Live Ticker 🔴</h2>
+            <div id="ticker-content">
+                <p>Cargando partidos en vivo...</p>
+            </div>
+        </section>
+
+        <section class="results">
+            <h2>Últimos Resultados</h2>
+            <div class="match">
+                <p>Real Madrid <span class="score">3 - 1</span> Barcelona</p>
+                <small>Finalizado</small>
+            </div>
+            <div class="match">
+                <p>Liverpool <span class="score">2 - 2</span> Manchester City</p>
+                <small>Finalizado</small>
+            </div>
+        </section>
+
+        <section class="league-table">
+            <h2>Tabla de Posiciones</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Equipo</th>
+                        <th>PJ</th>
+                        <th>Pts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Real Madrid</td>
+                        <td>10</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Barcelona</td>
+                        <td>10</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Atlético de Madrid</td>
+                        <td>10</td>
+                        <td>22</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WebSoccer - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
